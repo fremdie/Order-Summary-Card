@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:  https://github.com/fremdie/order-summary-card
+- Live Site URL: https://fremdie.github.io/order-summary-card/
 
 ## My process
 
@@ -56,9 +56,9 @@ Majorly, I learnt about styling buttons.
 - [w3schools](https://www.w3shools.com) - This helped me with majority of the CSS stylings. The explanations were easy to understand and the examples were easy to replicate.
 
 ## Author
+- GitHub - Ijeoma Agobi (https://github.com/fremdie)
 - Twitter - [@AG_Ijeoma](https://www.twitter.com/AG_Ijeoma)
 
 ## Acknowledgments
 
 I appreciate Frontend Mentor(Ace Adonis) for his excellent teaching skills, and patience in answering questions.
-
