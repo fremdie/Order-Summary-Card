@@ -1,0 +1,132 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: hsl(225, 100%, 98%);
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 450px;
+    margin: 3rem auto;  /* 1rem=base font size e.g 16px */
+    align-items: center;
+}
+.container > img {
+    border-radius: 10px 10px 0 0;
+}
+
+.summary{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+}
+.summary p {
+    line-height: 1.6;
+    padding: 0 25px;
+}
+.summary > h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.plan {
+    background-color:  hsl(225, 100%, 94%);
+    width: auto;
+    margin: 10px 30px;
+    height: 4rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan article {
+    display: flex;
+}
+.plan h4, p {
+    margin: 0;
+}
+h4 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.change-btn {
+    background: transparent;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+}
+.change-btn:hover {
+    text-decoration: none;
+}
+#two {
+    color: hsl(224, 23%, 55%);
+}
+.submit-btn {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    border: none;
+    color: hsl(225, 100%, 98%);
+    width: 87%;
+    height: 2.5rem;
+    margin: 20px 0 0 30px;
+    font-weight: 700;
+    font-family: inherit;
+    box-shadow: 5px 10px 10px hsl(225, 100%, 94%);
+}
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: hsl(225, 100%, 94%);
+    transition: all 0.2s ease-in-out;
+    color: hsl(245, 75%, 52%);
+}
+.cancel-btn {
+    color: hsl(224, 23%, 55%);
+    width: 87%;
+    height: 2.5rem;
+    margin:20px 30px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    font-weight: 700;
+    font-family: inherit;
+}
+.cancel-btn:hover {
+    cursor: pointer;
+}
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+/* mobile responsiveness */
+@media screen and (min-width: 375px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+        background-size: 100% 60%;
+        background-repeat: no-repeat;
+    }
+    .container {
+        width: auto;
+    }
+    .container > img {
+        border-radius: 10px 10px 0 0;
+       /*  display: block;
+        margin-left: auto;
+        margin-right: auto; */
+        width: 100%;
+    }
+}
