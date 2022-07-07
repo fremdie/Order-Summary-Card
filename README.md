@@ -49,6 +49,16 @@ Here are some code snippets:
 .cancel-btn:hover {
   cursor: pointer;
 }
+@media screen and (min-width: 375px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+        background-size: 100% 60%;
+        background-repeat: no-repeat;
+    }
+    .container {
+        width: auto;
+    }
+}    
 ```
 
 ### Useful resources
