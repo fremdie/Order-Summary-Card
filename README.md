@@ -32,7 +32,6 @@ Users should be able to:
 - Solution URL:  https://github.com/fremdie/order-summary-card
 - Live Site URL: https://fremdie.github.io/order-summary-card/
 
-## My process
 
 ### Built with
 
@@ -43,7 +42,8 @@ Users should be able to:
 
 ### What I learned
 
-Majorly, I learnt about styling buttons.
+Majorly, I learnt about styling buttons and making webpages responsive with CSS (media query).
+Here are some code snippets:
 
 ```css
 .cancel-btn:hover {
